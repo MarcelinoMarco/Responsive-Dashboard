@@ -1,0 +1,27 @@
+@media(max-width: 600px){
+    .menu ul li a{
+        gap: 30px;
+        margin: 5px 0;
+        padding: 10px 2px;
+    }
+
+    .menu:hover{
+        width: 210px;
+    }
+
+    .menu:hover ul li a{
+        gap: 10px;
+    }
+
+    .menu{
+        width: 50px;
+    }
+
+    .profile{
+        gap: 10px;
+    }
+
+    .profile h2{
+        font-size: 18px;
+    }
+}
