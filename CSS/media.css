@@ -15,6 +15,7 @@
 
     .menu{
         width: 50px;
+        height: 150vh;
     }
 
     .profile{
@@ -30,10 +31,21 @@
       .data-info .box {
         flex-basis: 100%;
     }
-    
+
     .title-info {
         flex-direction: column;
         gap: 10px;
         text-align: center;
+    }
+}
+
+@media(max-width: 500px){
+    .profile{
+        gap: 3px;
+    }
+
+    .profile .img-box{
+        width: 40px;
+        height: 40px;
     }
 }
